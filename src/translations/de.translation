@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <name>AfflMappingsDescription</name>
+        <label>[Mapped Primary Affiliations appear in a special Primary Affiliations section on the Contact record. The value set as Primary for an Account Record Type appears in the corresponding fields on the Contact record, as defined below. For more information, see the]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごд]</label>
+    </customLabels>
+    <customLabels>
+        <name>AfflProgEnrollDeleted</name>
+        <label>[If selected, when deleting a Program Enrollment, delete its related Affiliation. Otherwise, keep the Affiliation and set its Status to the value defined in Status for Affiliations Not Deleted.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소]</label>
+    </customLabels>
+    <customLabels>
+        <name>AttendanceCourseConnectionContactMismatch</name>
+        <label>[Specify a Course Connection that has the same Contact as you specified for this Attendance Event.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>AutoCreateFieldError</name>
+        <label>[There's an invalid autocreate relationship setting configured in EDA Settings | Relationships | Autocreation. Delete or edit the invalid setting, then try again.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذ]</label>
+    </customLabels>
+    <customLabels>
+        <name>BatchJobRunningProblem</name>
+        <label>[There was a problem starting the Batch.]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>BothFieldAndValue</name>
+        <label>[Set the Filter field, or both the Filter field and Filter value.]l'介引户הаí先ร简аน取정úσιм]</label>
+    </customLabels>
+    <customLabels>
+        <name>CannotChangeContactAndCourseOffering</name>
+        <label>[Can't change the Contact or Course Offering on a Course Connection that has associated Term Grades or Attendance Events. If you want a Course Connection with a different Contact or Course Offering, create a new Course Connection.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрω]</label>
+    </customLabels>
+    <customLabels>
+        <name>CannotDelete</name>
+        <label>[This record can't be deleted because it has one or more related records associated with it. Delete the associated records first, then delete this record. To determine which records should be deleted first, click the Related tab. If you don't see related records, or if you're unable to delete them, contact your System Administrator for assistance.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶]</label>
+    </customLabels>
+    <customLabels>
+        <name>DefaultAccountName</name>
+        <label>[Account]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>DefaultAdminName</name>
+        <label>[Administrative Account]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>DefaultHouseholdName</name>
+        <label>[Household]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>Female</name>
+        <label>[Female]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>InvalidFilter</name>
+        <label>[The field entered as the Filter Field isn't valid. Filter Fields can be any standard or custom field on the object this trigger is for, as well as fields on related records. Make sure you use the field's API name, and omit any EDA namespace prefix ("hed__").]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごд]</label>
+    </customLabels>
+    <customLabels>
+        <name>Male</name>
+        <label>[Male]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>MultipleCourseConnection</name>
+        <label>[More than one Course Connection is associated with this Contact and this Course Offering. Specify the Course Connection that represents the student's enrollment in this Course Offering for this Term Grade.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介]</label>
+    </customLabels>
+    <customLabels>
+        <name>NoContactCOFound</name>
+        <label>[The Contact and Course Offering are not specified or don't match the Course Connection. Either specify only a Course Connection or both a Contact and a Course Offering, so we can save this record with the correct data.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นş]</label>
+    </customLabels>
+    <customLabels>
+        <name>NoCourseConnection</name>
+        <label>[There is no Course Connection associated with this Contact and Course Offering. If this student is enrolled in this Course Offering, create a Course Connection.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذ]</label>
+    </customLabels>
+    <customLabels>
+        <name>NoDataMatch</name>
+        <label>[The Contact and Course Offering don't match the Course Connection. Either specify only a Course Connection or both a Contact and a Course Offering, so we can save this record with the correct data.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소и]</label>
+    </customLabels>
+    <customLabels>
+        <name>NoFieldsPopulated</name>
+        <label>[Either specify only a Course Connection or both a Contact and a Course Offering.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>NoneOption</name>
+        <label>[--None--]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>OnlyCourseConnectionPopulated</name>
+        <label>[There is no Contact or Course Offering associated with this Course Connection. Choose a valid Course Connection.]l'介引户הаí先ร简аน取정úσιмÜП介]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredEmailMatchMustExist</name>
+        <label>[We can't find the email specified in Preferred Email. Make sure that you're entering the field label of an existing custom email field.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredEmailMatchNotNull</name>
+        <label>[The email field you selected in Preferred Email is blank. Either choose a different Preferred Email, or add a value for that email field.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredEmailRequiredError</name>
+        <label>[Select a value for Preferred Email.]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredPhoneMatchMustExist</name>
+        <label>[We can't find the Phone specified in Preferred Phone. Make sure that you're entering the field label of an existing custom Phone field.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredPhoneMatchNotNull</name>
+        <label>[The phone selected for Preferred Phone can't be blank.]l'介引户הаí先ร简аน取정ú]</label>
+    </customLabels>
+    <customLabels>
+        <name>PreferredPhoneRequiredError</name>
+        <label>[Select a value for Preferred Phone.]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>Relationship_Explanation_Connector</name>
+        <label>[is]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>Relationship_Split</name>
+        <label>[-]l]</label>
+    </customLabels>
+    <customLabels>
+        <name>RelationshipsAutoDescription</name>
+        <label>[Auto-Create settings let you define when a Relationship record is automatically created between a Contact and a Campaign Member, based on a custom lookup field on one of the two objects. For example, a 'Referral' lookup from Campaign Member to Contact could create a 'Referrer' and 'Referee' Relationship between the two Contacts. (Note that this feature is not available for Leads or Campaign Member objects that reference Leads.)]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>RelationshipsLookupDescription</name>
+        <label>[These settings allow you to configure reciprocal relationships, or the "matching" relationship between two Contacts. For example, since a father is related to his son, there should be an additional record showing the son related back to his father. You can specify the Type value for the Name, and what the reciprocal value should be based on the gender of the connecting Contact. You can define male, female, and neutral values for each reciprocal setting..]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน取정úσι]</label>
+    </customLabels>
+    <customLabels>
+        <name>acctNamingOther</name>
+        <label>[Other]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>adapterException</name>
+        <label>[Invalid call. This function is reserved for Salesforce use.]l'介引户הаí先ร简аน取정úσ]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrHhAdmAccountOnly</name>
+        <label>[Address records can only be associated with Accounts or Contacts.]l'介引户הаí先ร简аน取정úσιм]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrNotEnabledAccount</name>
+        <label>[The ability to add multiple addresses is disabled for this Account record type. To enable it, go to EDA Settings, click on Accounts and Contacts, and select the appropriate checkbox next to Account Types with Multi-Addresses Enabled.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωt]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrNotEnabledContact</name>
+        <label>[The ability to add multiple addresses is disabled for Contacts. To enable it, go to EDA Settings, click on Accounts and Contacts, then select the Contact Multi-Addresses Enabled checkbox.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrSeasonalOverlap</name>
+        <label>[There's an existing Address record for this Account or Contact with seasonal start and end dates that overlap the seasonal dates for this record. Adjust the seasonal dates so that they don't overlap with the other Address record.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрω]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrSeasonalPartial</name>
+        <label>[An address can't have partial Seasonal Start and End Dates. Either enter values for all of the Seasonal Start and End date fields, or leave all of them blank.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrSeasonalPartialYear</name>
+        <label>[An address can't have partial Seasonal Start and End Dates. Either enter values for all of the Seasonal Start and End date fields, or leave all of them blank.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</label>
+    </customLabels>
+    <customLabels>
+        <name>addrValidParentObjects</name>
+        <label>[Address records can only be associated with Accounts or Contacts.]l'介引户הаí先ร简аน取정úσιм]</label>
+    </customLabels>
+    <customLabels>
+        <name>adminAccNameFormat</name>
+        <label>[Administrative Account Name Format]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>adminAccNameFormatHelpText</name>
+        <label>[The name format used for auto-created Administrative Accounts.]l'介引户הаí先ร简аน取정úσι]</label>
+    </customLabels>
+    <customLabels>
+        <name>affiliationWithSameAccExists</name>
+        <label>[This Contact already has a Primary Affiliation to the specified Account. Either deselect the Primary setting for the other Affiliation so you can designate this one as Primary, or create this Affiliation without the Primary value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωt]</label>
+    </customLabels>
+    <customLabels>
+        <name>afflAccountNoRecordType</name>
+        <label>[We can't create this Affiliation because the specified Account doesn't have a record type.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>afflAccoutMappingError</name>
+        <label>[We can't save this record because of an Account record type error in Affiliation Mappings. Ask your administrator to verify that Account Record Types are correctly mapped to Contact Primary Affiliations.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ]</label>
+    </customLabels>
+    <customLabels>
+        <name>afflNullPointerError</name>
+        <label>[The {0} Account record type doesn''t exist. Ask your admin to check record types in Affiliation Mappings.]l'介引户הаí先ร简аน取정úσιмÜП]</label>
+    </customLabels>
+    <customLabels>
+        <name>afflTypeEnforced</name>
+        <label>[Enable Record Type Validation]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>afflTypeEnforcedDescription</name>
+        <label>[When selected, if users specify an Account as a Contact's Primary Affiliation, the Account is required to have a record type and all Account Record Type values must be correctly mapped to their respective Contact Primary Affl Fields in Affiliation Mappings. If validation fails, an error prevents the Affiliation from being saved.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกв]</label>
+    </customLabels>
+    <customLabels>
+        <name>automaticHHNaming</name>
+        <label>[Automatically Rename Household Accounts]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>automaticHHNamingHelpText</name>
+        <label>[If selected, automatically renames an existing Household Account whenever a Contact is added to the Account or an existing Contact is changed.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</label>
+    </customLabels>
+    <customLabels>
+        <name>defaultAccountRecordTypeMissingError</name>
+        <label>[We can’t find the Administrative Account record type in your org. Following installation, use Object Manager to create a new record type named ‘Administrative’ for the Account object.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт]</label>
+    </customLabels>
+    <customLabels>
+        <name>defaultNamingConnector</name>
+        <label>[and]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>duplicateFieldInFilter</name>
+        <label>[(DuplicateAcknowledged)]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>duplicateWithHEDAField</name>
+        <label>[The Filter Field value names a duplicate of a product field. Specify a non-duplicate field. Otherwise, we filter using the value in the product field. If you choose the latter option, acknowledge that you accept this filtering logic by appending {0} after the field name. For example, if the duplicate field is Deceased__c, enter Deceased__c{0} as the Filter Field value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез]</label>
+    </customLabels>
+    <customLabels>
+        <name>exceptionRequiredField</name>
+        <label>[A blank required field is preventing this record from being saved. The required field could be on this record, or on a record related by a lookup value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй]</label>
+    </customLabels>
+    <customLabels>
+        <name>exceptionValidationRule</name>
+        <label>[A validation rule is preventing this record from being processed. The validation rule might be on this record, or on a related record that's being updated. VALIDATION MESSAGE: ]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяř]</label>
+    </customLabels>
+    <customLabels>
+        <name>fieldWithHEDANamespace</name>
+        <label>[The Filter Field can't include namespace prefixes such as hed__. Remove the namespace prefix and try again.]l'介引户הаí先ร简аน取정úσιмÜП]</label>
+    </customLabels>
+    <customLabels>
+        <name>firstNameLastNameAdminACC</name>
+        <label>[{!{!FirstName}} {!LastName} Administrative Account]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>firstNameLastNameFamily</name>
+        <label>[{!{!FirstName}} {!LastName} Family]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>firstNameLastNameHH</name>
+        <label>[{!{!FirstName}} {!LastName} Household]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>giftProcessingConfigException</name>
+        <label>[You are trying to access Gift Processing without the required configuration information. Contact your administrator for help.]l'介引户הаí先ร简аน取정úσιмÜП介мのα]</label>
+    </customLabels>
+    <customLabels>
+        <name>hhAccNameFormat</name>
+        <label>[Household Account Name Format]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>hhAccNameFormatHelpText</name>
+        <label>[The format used for naming Household Accounts.]l'介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>hhFamily</name>
+        <label>[Family]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameAdminAcc</name>
+        <label>[{!LastName} Administrative Account]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameFamily</name>
+        <label>[{!LastName} Family]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameFirstNameAdminAcc</name>
+        <label>[{!LastName} ({!{!FirstName}}) Administrative Account]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameFirstNameFamily</name>
+        <label>[{!LastName} ({!{!FirstName}}) Family]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameFirstNameHH</name>
+        <label>[{!LastName} ({!{!FirstName}}) Household]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>lastNameHH</name>
+        <label>[{!LastName} Household]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>nestedPlanRequirementPPExp</name>
+        <label>[Plan Requirements can specify either a Program Plan or a parent Plan Requirement, but not both. If this Plan Requirement is a child of another Plan Requirement, specify a parent Plan Requirement only. If this Plan Requirement is a child of a Program Plan, specify a Program Plan only.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าа]</label>
+    </customLabels>
+    <customLabels>
+        <name>noAccRecType</name>
+        <label>[The defined account record type does not exist:]l'介引户הаí先ร简аน取]</label>
+    </customLabels>
+    <customLabels>
+        <name>noAfflMappings</name>
+        <label>[No Affiliation Mappings have been created. Use the form below to create a new Affiliation Mapping.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>noAutoCreateSettings</name>
+        <label>[No Auto-Create Settings have been defined. Use the form below to create a new Auto-Create Setting.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>noRecSettings</name>
+        <label>[No Reciprocal Settings have been defined. Use the form below to create a new Reciprocal Setting.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</label>
+    </customLabels>
+    <customLabels>
+        <name>preferredBatchDefaultEmail</name>
+        <label>[Email (standard)]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>preferredBatchDefaultPhone</name>
+        <label>[Phone (standard)]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAccModelTitle</name>
+        <label>[Default Account Model]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAccountRecordTypeSupportsHHAddress</name>
+        <label>[Household Account Record Type]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAccountTypesMultiAddressesEnabled</name>
+        <label>[Account Types with Multi-Addresses Enabled]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAccoutTypesWithoutContactsDelete</name>
+        <label>[Account Types without Contacts to Delete]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAddHispanicOrLatinoPicklistValue</name>
+        <label>[Add "Hispanic or Latino" as a picklist value to the Ethnicity field if necessary.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAddNotHispanicOrLatinoPicklistValue</name>
+        <label>[Add "Not Hispanic or Latino" as a picklist value to the Ethnicity field if necessary.]l'介引户הаí先ร简аน取정úσιмÜП介мのα]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAdminAccountRecordType</name>
+        <label>[Administrative Account Record Type]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflCopyProgramEnrollmentEndDate</name>
+        <label>[Copy Affiliation End Date from Program Enrollment]l'介引户הаí先ร简аน取]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflCopyProgramEnrollmentStartDate</name>
+        <label>[Copy Affiliation Start Date from Program Enrollment]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflDeleteProgramEnrollment</name>
+        <label>[Status for Affiliations Not Deleted]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflNotInserted</name>
+        <label>[We can't map this Affiliation because it references a record type that is already referenced by another Affiliation Mapping. If you want to add this mapping so the Affiliation is translated, click Edit to modify the existing mapping. Then, specify the field API name under Contact Primary Affl Field. Do not change the name specified for Account Record Type.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflProgEnrollDeleteRelated</name>
+        <label>[Delete Related Affiliation When Deleting Program Enrollment]l'介引户הаí先ร简аน取정úσ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflProgEnrollSetRole</name>
+        <label>[Specify Role for Created Affiliations]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflProgEnrollSetRoleValue</name>
+        <label>[Role for Created Affiliations]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfflProgEnrollSetStatusValue</name>
+        <label>[Status for Created Affiliations]l'介引户הаí先]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAfterRunBackfill</name>
+        <label>[After Running the Backfill]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoCompleteEnterChatterGroupName</name>
+        <label>[Start typing Chatter Group name to search.]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoCompleteEnterUserName</name>
+        <label>[Start typing User name to search.]l'介引户הаí先]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoCompleteSelectChatterGroup</name>
+        <label>[Select Chatter Group]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoCompleteSelectUser</name>
+        <label>[Select User]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoEnrollment</name>
+        <label>[Auto-Enrollment]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoEnrollmentRole</name>
+        <label>[Auto-Enrollment Role]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgAutoEnrollmentStatus</name>
+        <label>[Auto-Enrollment Status]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBackfillQueuedEmailSent</name>
+        <label>[The backfill was queued successfully. An email will be sent at the completion of the batch.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBeforeRunBackfill</name>
+        <label>[Before Running the Backfill]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnAddMapping</name>
+        <label>[Add Mapping]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnAddSetting</name>
+        <label>[Add Setting]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnCancel</name>
+        <label>[Cancel]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnEdit</name>
+        <label>[Edit]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnRunBackfill</name>
+        <label>[Run Backfill]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnRunCopy</name>
+        <label>[Run Copy]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgBtnSave</name>
+        <label>[Save]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgCleanupQueuedEmailSent</name>
+        <label>[The Cleanup was queued successfully. An email will be sent when the batch is completed.]l'介引户הаí先ร简аน取정úσιмÜП介мのαş]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColAccountRecordType</name>
+        <label>[Account Record Type]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColActive</name>
+        <label>[Active]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColCampTypes</name>
+        <label>[Campaign Types]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColContactPrimaryAfflField</name>
+        <label>[Contact Primary Affl Field]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColFemale</name>
+        <label>[Female]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColField</name>
+        <label>[Field Label]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColMale</name>
+        <label>[Male]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColNeutral</name>
+        <label>[Neutral]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColObject</name>
+        <label>[Object API Name]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColRelType</name>
+        <label>[Relationship Type]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColRole</name>
+        <label>[Role]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgColStatus</name>
+        <label>[Status]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgConfirmReadyRunBackfill</name>
+        <label>[I understand and am ready to run Backfill.]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgContactMultiAddressesEnabled</name>
+        <label>[Contact Multi-Addresses Enabled]l'介引户הаí先]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgCourseConnBackFillError</name>
+        <label>[There was an error when starting the backfill.]l'介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgCourseConnBackFillSuccess</name>
+        <label>[The backfill was queued successfully.]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgCourseDescriptionCopyEmailBody</name>
+        <label>[The batch Apex job processed {0} batches with {1} failures.]l'介引户הаí先ร简аน取정úσ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgCourseDescriptionCopyEmailSubject</name>
+        <label>[Course Description Copy Job Completed with a status of:]l'介引户הаí先ร简аน取정ú]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDefaultContactLanguageFluency</name>
+        <label>[Default Contact Language Fluency]l'介引户הаí先]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDefaultFacultyTypeTitle</name>
+        <label>[Default Faculty Record Type]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDefaultStudentTypeTitle</name>
+        <label>[Default Active Student Record Type]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDisableErrorHandlingTitle</name>
+        <label>[Disable Error Handling]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDisablePreferredEmailEnforcement</name>
+        <label>[Disable Preferred Email Enforcement]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgDisablePreferredPhoneEnforcement</name>
+        <label>[Disable Preferred Phone Enforcement]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgEnableCourseConnectionsTitle</name>
+        <label>[Enable Course Connections]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgEnablePreferredPhoneSync</name>
+        <label>[Enable Enhanced Preferred Phone Functionality]l'介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgErrorNotiTo</name>
+        <label>[Error Notifications To:]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgErrorNotifRecipientsTitle</name>
+        <label>[Error Notification Recipients]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgEthnicityRaceBackfillContacts</name>
+        <label>[Ethnicity and Race Backfill for Contacts]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgFluent</name>
+        <label>[Fluent]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAccountModel</name>
+        <label>[For Higher Education institutions, we recommend the "Administrative" Account model. For K-12 schools, we recommend the "Household" Account model.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAccoutsDeletedIfChildContactsDeleted</name>
+        <label>[Record types of Accounts that are automatically deleted if all their associated Contacts have been deleted.]l'介引户הаí先ร简аน取정úσιмÜП]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAddressAccRecType</name>
+        <label>[The Account record types that support multiple address management.]l'介引户הаí先ร简аน取정úσιм]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAdminRecType</name>
+        <label>[The Account record type used for Administrative Accounts. This setting affects management of address records and the naming format of Administrative Accounts.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflCopyProgramEnrollmentEndDate</name>
+        <label>[If selected, the Program Enrollment End Date is copied to the End Date on new Affiliation records. Otherwise, the Affiliation End Date is left blank.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflCopyProgramEnrollmentStartDate</name>
+        <label>[If selected, the Program Enrollment Start Date is copied to the Start Date on new Affiliation records. Otherwise, the Affiliation Start Date is left blank.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflCreateFromProgramEnrollmentHeader</name>
+        <label>[Affiliations Created with Program Enrollments]l'介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflCreateFromProgramEnrollmentInfo</name>
+        <label>[When a Program Enrollment record is created without an existing Affiliation, create an Affiliation record with the values specified below.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflDeleteProgramEnrollment</name>
+        <label>[The Status set on the Affiliation related to a deleted Program Enrollment.]l'介引户הаí先ร简аน取정úσιмÜП介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflDeleteProgramEnrollmentHeader</name>
+        <label>[Program Enrollment Deletions]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflDeleteProgramEnrollmentInfo</name>
+        <label>[Specify below how you want Affiliation records for deleted Program Enrollments to be handled. The related Affiliation record can either be deleted, or have its Status updated.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяř]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflProgEnrollSetRole</name>
+        <label>[If selected, set the new Affiliation's role to the value defined in Role for Created Affiliations. Otherwise, leave the Affiliation's role blank.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflProgEnrollSetRoleValue</name>
+        <label>[The role set on the Affiliation created with a Program Enrollment.]l'介引户הаí先ร简аน取정úσιм]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpAfflProgEnrollSetStatusValue</name>
+        <label>[The status set on the Affiliation created with a Program Enrollment.]l'介引户הаí先ร简аน取정úσιмÜ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpContactAddrs</name>
+        <label>[Select this option to enable multiple address management for Contacts.]l'介引户הаí先ร简аน取정úσιмÜП]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpContactPreferredEmail</name>
+        <label>[Do not require Contacts to have a Preferred Email.]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpContactPreferredPhone</name>
+        <label>[Do not require Contacts to have a Preferred Phone.]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpContactPreferredPhoneSync</name>
+        <label>[Sync the Preferred Phone field to the Contact's standard Phone field and validate that the value in Preferred Phone exists and has a value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCopyQueuedEmailSent</name>
+        <label>[The process was queued successfully. An email will be sent at the completion of the job.]l'介引户הаí先ร简аน取정úσιмÜП介мのαş]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCourseConnBackfillDescription</name>
+        <label>[The Course Connections Backfill should be used only when enabling Course Connections for the first time and only in orgs where Course Offerings and Course Connections (Enrollments) existed prior to enabling the Course Connections feature. The Backfill converts all Contacts that were listed as faculty on a Course Connection (Enrollment) or Course Offering to the Default Faculty Record Type. The Backfill then converts the Contacts on the remaining Course Connections (Enrollments) to the Default Active Student Record Type.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCoursesDataMigration</name>
+        <label>[In EDA 1.30, the Extended Description field was added to accommodate longer course descriptions.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCoursesDataMigrationCopiesValues</name>
+        <label>[This utility copies values from the Course Description field to the Extended Description field. This process may take some time, but you can safely close this page and the process will continue in the background.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介น]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCoursesDataMigrationDontOverwrite</name>
+        <label>[If a Course already has a value for Extended Description, we don't overwrite it.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpCoursesDataMigrationUpdatePageLayouts</name>
+        <label>[After the process is complete, remember to update page layouts and other areas of the application that refer to the Description fields.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpDefaultContactLanguageFluency</name>
+        <label>[The Fluency value automatically set on newly created Contact Language records when users set the Primary Language lookup field on a Contact.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpDefaultFacultyType</name>
+        <label>[The default record type when creating Course Connections for a faculty member.]l'介引户הаí先ร简аน取정úσιмÜП介м]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpDefaultStudentType</name>
+        <label>[The default record type when creating Course Connections for active students.]l'介引户הаí先ร简аน取정úσιмÜП介м]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpEnableCourseConnBeforeBackfill</name>
+        <label>[You must enable Course Connections before running the Course Connections Backfill.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpEnableCourseConnBeforeRecordTypes</name>
+        <label>[You must enable Course Connections before editing record types.]l'介引户הаí先ร简аน取정úσι]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpEnableCourseConnections</name>
+        <label>[Course Connection records connect a Contact with a Course Offering. Enabling this feature allows users to choose the type of Contact (Faculty or Student) to create the Course Connection for. When you enable this feature, you also need to set the Default Active Student Record Type and Default Faculty Record Type, below. If you're enabling this feature for the first time, we highly recommend you run the Course Connections Backfill.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpEnsureExistContactPreferEmail</name>
+        <label>[For existing Contacts who haven't specified a Preferred Email or Preferred Phone, the cleanup ensures that one of the Contact's standard or custom email addresses or phone numbers are set as the preferred value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介น]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpErrorDisable</name>
+        <label>[Select to disable the product's error handling framework.]l'介引户הаí先ร简аน取정úσ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpErrorNotifyOn</name>
+        <label>[If selected, notifications are posted for product-generated errors.]l'介引户הаí先ร简аน取정úσιмÜ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpErrorNotifyTo</name>
+        <label>[Specify who should receive email error notifications. Valid values are 'All Sys Admins', the ID of a user in your org, or the ID of a Chatter group. You can enter only one value.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяř]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpEthnicityRaceBackfill</name>
+        <label>[Use the Ethnicity and Race Backfill only if your org used the Ethnicity field before the Race field was added and values were removed from the Ethnicity field as of EDA version 1.28. If the value in the Contact's Ethnicity field does not equal “Not Hispanic or Latino” or “Hispanic or Latino,” the Backfill copies the value to the Race field. Both standard picklist values and any custom values that you may have added are eligible to be copied.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน取정ú]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpHouseAdmAccountAddressMgmt</name>
+        <label>[Enables Address management for Administrative and Household Accounts when selected.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpHouseholdRecType</name>
+        <label>[The Account record type used for Household Accounts. This setting affects management of Address records and the naming format of Household Accounts.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpIfCustomValuesEthnicityCopyRace</name>
+        <label>[If your org previously added custom picklist values to the Ethnicity field that you want to be available in the Race field, copy those custom picklist values to the Race field.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяř]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpNestedPlanRequirementPP</name>
+        <label>[When selected, Plan Requirements can specify either a Program Plan or a parent Plan Requirement, but not both. If you specify both a Program Plan and a parent Plan Requirement, an error message will prevent you from saving until only one is selected.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنご]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpOrgAccountAddressMgmt</name>
+        <label>[Enables Address management for Organizational Accounts when selected.]l'介引户הаí先ร简аน取정úσιмÜ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpRelAutoCreatedDup</name>
+        <label>[Auto-created Relationships are deduplicated by default to prevent duplicate Relationship records from being created between two Contacts. Select "Allow Auto-Created Duplicate Relations" to disable this behavior and allow multiple Relationships of the same type between two Contacts.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpRelReciprocalMethod</name>
+        <label>[The method used to populate the type field when creating a Reciprocal Relationship. "List Setting" uses the custom settings defined on the Reciprocal Relationships tab with male, female, and neutral values. "Value Inversion" inverts the type on the original Relationship record where appropriate. For example, if the originating Relationship is Parent-Child, the Reciprocal Relationship will be Child-Parent.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpRemoveAllPicklistValuesEthnicityExceptHispanicOrLatino</name>
+        <label>[Remove all picklist values from the Ethnicity field except for "Hispanic or Latino" and "Not Hispanic or Latino." We recommend that you replace each removed value with one of the remaining valid values, rather than deleting them outright from existing records. As of EDA version 1.28, the only valid Ethnicity values are "Not Hispanic or Latino" and "Hispanic or Latino."]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpSimpleAddrChangeIsUpdate</name>
+        <label>[Treats changes to single Contact or Account address fields as updates to the existing address (i.e., no new Address object is created). Also causes white space and case changes to be treated as updates.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpStoreErrorsOn</name>
+        <label>[When selected, errors are stored in a custom Error object. You can create a tab for the Errors object to view a list of all stored errors.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgHelpUpdateReportIfDependenciesEthnicity</name>
+        <label>[If you had reports or formula fields that referenced the previous values in the Ethnicity field, update them.]l'介引户הаí先ร简аน取정úσιмÜП]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgNestedPlanRequirementPP</name>
+        <label>[Validate Program Plan for Nested Plan Requirements]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgNewAfflMapping</name>
+        <label>[New Affiliation Mapping]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgOptAllSysAdmins</name>
+        <label>[All Sys Admins]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgOptChatterGroup</name>
+        <label>[Chatter Group]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgOptSelect</name>
+        <label>[Select...]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgOptUser</name>
+        <label>[User]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgPreferredEmailBatchEmailBody</name>
+        <label>[The batch Apex job processed {0} records with {1} failures.]l'介引户הаí先ร简аน取정úσ]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgPreferredEmailBatchEmailSubject</name>
+        <label>[Preferred Email/Phone Job completed with a status of:]l'介引户הаí先ร简аน取정]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgPreferredEmailDataCleanup</name>
+        <label>[Preferred Email/Phone Data Cleanup:]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgPreferredPhoneSelection</name>
+        <label>[Select a field for Preferred Phone to copy the value from when the standard Phone field has no value, or more than one 'Phone' field is defined.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRefreshAdminAcctNameDesc</name>
+        <label>[Warning: Clicking this button renames ALL existing Administrative Account records to the format specified in Administrative Account Name Format. Read the product documentation to be sure that you understand the consequences of this irreversible change. Before you proceed, disable any automation or processes that reference Administrative Accounts (for example, workflow rules). After the refresh is complete, you can re-enable them.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRefreshAdminAcctNameTitle</name>
+        <label>[Refresh All Administrative Account Names]l'介引户הаí先ร简а]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRefreshHHAcctNameDesc</name>
+        <label>[Warning: Clicking this button renames ALL existing Household Account records to the format specified in Household Account Name Format. This action enables the Automatically Rename Household Accounts setting, even if previously unselected. Read the product documentation to be sure that you understand the consequences of this irreversible change. Before you proceed, disable any automation or processes that reference Household Accounts (for example, workflow rules). After the refresh is complete, you can re-enable them.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنごдčש帳าаůсחое簡üγกвцΕ戶н客иез개介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRefreshHHAcctNameTitle</name>
+        <label>[Refresh All Household Account Names]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRunCleanUp</name>
+        <label>[Run Cleanup]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgRunCleanUpEnableFirstTime</name>
+        <label>[Run this data cleanup process after you've enabled the Preferred Email or Preferred Phone requirement for the first time or after a period of not enforcing the requirement.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะя]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSaveSettings</name>
+        <label>[Settings successfully saved.]l'介引户הаí]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSelectReciType</name>
+        <label>[Select recipient type:]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSendErrorsTitle</name>
+        <label>[Send Error Notifications]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSimpleAddressChangeUpdate</name>
+        <label>[Simple Address Change Treated as Update]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgStoreErrorsTitle</name>
+        <label>[Store Errors]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSuccess</name>
+        <label>[Success]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSuccessAdminAccountNameRefresh</name>
+        <label>[The Administrative Account naming refresh was queued successfully.
+        An email will be sent at the completion of the batch.]l'介引户הаí先ร简аน取정úσιмÜП介мのα]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgSuccessHHAccountNameRefresh</name>
+        <label>[The Household Account naming refresh was queued successfully.
+        An email will be sent at the completion of the batch.]l'介引户הаí先ร简аน取정úσιмÜП介мの]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabAccCont</name>
+        <label>[Accounts and Contacts]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabAffl</name>
+        <label>[Affiliations]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabAfflMappings</name>
+        <label>[Affiliation Mappings]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabAutocreation</name>
+        <label>[Autocreation]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabBackfill</name>
+        <label>[Backfill]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabCourse</name>
+        <label>[Courses]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabCourseConn</name>
+        <label>[Course Connections]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabName</name>
+        <label>[Name]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabPrimaryAfflField</name>
+        <label>[Contact Primary Affl Field]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabProgramPlan</name>
+        <label>[Program Plans]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabReciprocalSettings</name>
+        <label>[Reciprocal Settings]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabRel</name>
+        <label>[Relationships]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabSettings</name>
+        <label>[Settings]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTabSystem</name>
+        <label>[System]l']</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleAllowAutocreatedDuplicateRel</name>
+        <label>[Allow Auto-Created Duplicate Relations]l'介引户הаí先ร简]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleAppwideSettings</name>
+        <label>[App-wide Settings]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleCourseConnectionBackfill</name>
+        <label>[Course Connection Backfill]l'介引户הа]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleCoursesDescriptionDataMigration</name>
+        <label>[Courses: Description Data Migration]l'介引户הаí先ร]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleHEDAConfig</name>
+        <label>[Configuration]l'介]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleHEDASettings</name>
+        <label>[EDA Settings]l'介引]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleNewAutocreateSetting</name>
+        <label>[New Auto-Create Setting]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleNewReciSetting</name>
+        <label>[New Reciprocal Setting]l'介引户ה]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgTitleReciMethod</name>
+        <label>[Reciprocal Method]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>stgToastError</name>
+        <label>[Error]l'介引户]</label>
+    </customLabels>
+    <customLabels>
+        <name>timeBlockEndTimeMismatch</name>
+        <label>[We can't save the Course Offering Schedule because its End Time doesn't match the End Time of its associated Time Block. Either edit the End Time, specify a different Time Block, or don't specify a Time Block.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介]</label>
+    </customLabels>
+    <customLabels>
+        <name>timeBlockStartTimeMismatch</name>
+        <label>[We can't save the Course Offering Schedule because its Start Time doesn't match the Start Time of its associated Time Block. Either edit the Start Time, specify a different Time Block, or don't specify a Time Block.]l'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นş]</label>
+    </customLabels>
+    <customTabs>
+        <name>HEDA_Settings</name>
+        <label>[EDA Settings]l'介引]</label>
+    </customTabs>
+    <customApplications>
+        <name>HEDA</name>
+        <label>[EDA]l'介]</label>
+    </customApplications>
+</Translations>

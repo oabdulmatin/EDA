@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Category__c</name>
+    <help>[Indicates the type of Plan Requirement, for example, optional or required.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Category]o'介]</label>
+    <picklistValues>
+      <masterLabel>Required</masterLabel>
+      <translation>[Required]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Optional</masterLabel>
+      <translation>[Optional]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Course__c</name>
+    <help>[The Course associated with this Plan Requirement. Leave blank for a parent Plan Requirement with nested Plan Requirements.]o'介引户הаí先ร简аน取정úσιмÜП介мの]</help>
+    <relationshipLabel>[Plan Requirements]o'介引户]</relationshipLabel>
+    <label>[Course]o']</label>
+  </fields>
+  <fields>
+    <name>Credits__c</name>
+    <help>[The number of credits a student receives for satisfying this requirement.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Credits]o']</label>
+  </fields>
+  <fields>
+    <name>Description__c</name>
+    <label>[Description]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Plan_Requirement__c</name>
+    <help>[If the Plan Requirement is one of multiple requirements or multiple levels of requirements, specifies the parent Plan Requirement. Use this field to group a list of optional Courses that satisfy a generic requirement.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นş]</help>
+    <relationshipLabel>[Plan Requirements]o'介引户]</relationshipLabel>
+    <label>[Parent Plan Requirement]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Program_Plan__c</name>
+    <help>[The Program Plan this requirement is for. If you're grouping Plan Requirements together under a Parent Plan Requirement, best practice is to link only the top-level Plan Requirement to a Program Plan.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ]</help>
+    <relationshipLabel>[Plan Requirements]o'介引户]</relationshipLabel>
+    <label>[Program Plan]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Sequence__c</name>
+    <help>[This requirement's place in the Program Plan, for example, "1" indicates the first semester. Use this field to indicate the overall progression for the entire Program Plan, or to sort the order of sub-requirements within a single parent Plan Requirement.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنご]</help>
+    <label>[Sequence]o'介]</label>
+  </fields>
+  <layouts>
+    <layout>HEDA Plan Requirement Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Plan Requirement Name]o'介引户ה]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Plan Requirement Name]o'介引户ה]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Plan Requirement]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Plan Requirements]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

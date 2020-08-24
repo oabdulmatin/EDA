@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Campaign_Types__c</name>
+    <help>[For Auto-Create Relationships based on Campaign Members, the list of Campaign types the automation applies to. This field will be blank for Auto-Create Relationships based on Contacts.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт]</help>
+    <label>[Campaign Types]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Field__c</name>
+    <help>[The label of the lookup field that triggers the creation of this Relationship when the field value is updated.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Field]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Object__c</name>
+    <help>[The API name of the object (either Contact or CampaignMember) that the custom lookup field is on.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</help>
+    <label>[Object]o']</label>
+  </fields>
+  <fields>
+    <name>Relationship_Type__c</name>
+    <help>[The Relationship type (referer, family, etc.) to be created between the base object defined in the Object field, and the lookup object.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</help>
+    <label>[Relationship Type]o'介引户]</label>
+  </fields>
+</CustomObjectTranslation>

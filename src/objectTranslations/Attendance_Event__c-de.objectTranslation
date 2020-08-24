@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Arrival_Time__c</name>
+    <help>[The time a tardy student arrived.]o'介引户הаí先]</help>
+    <label>[Arrival Time]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Attendance_Type__c</name>
+    <help>[Indicate whether this tardy or absence was for one class period or for the day.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Attendance Type]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Class Absence</masterLabel>
+      <translation>[Class Absence]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Class Tardy</masterLabel>
+      <translation>[Class Tardy]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Day Absence</masterLabel>
+      <translation>[Day Absence]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Day Tardy</masterLabel>
+      <translation>[Day Tardy]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Contact__c</name>
+    <help>[The student who's tardy or absent.]o'介引户הаí先ร]</help>
+    <relationshipLabel>[Attendance Events]o'介引户]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Course_Connection__c</name>
+    <help>[The class and period in which the student was tardy or absent.]o'介引户הаí先ร简аน取정úσι]</help>
+    <relationshipLabel>[Attendance Events]o'介引户]</relationshipLabel>
+    <label>[Course Connection]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Course_Name__c</name>
+    <help>[The name of the Course in which the student was tardy or absent (read-only).]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Course Name]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Date__c</name>
+    <help>[The date of the tardy or absence.]o'介引户הаí先]</help>
+    <label>[Date]o'介引]</label>
+  </fields>
+  <fields>
+    <name>End_Time__c</name>
+    <help>[For a partial-day excused absence, the time the student returned.]o'介引户הаí先ร简аน取정úσιм]</help>
+    <label>[End Time]o'介]</label>
+  </fields>
+  <fields>
+    <name>Reason_Description__c</name>
+    <help>[More details about the student's absence or tardiness.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Reason Description]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Reason__c</name>
+    <help>[Select an option that most closely matches the reason the student was absent or tardy. Use the Reason Description field to enter more details.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Reason]o']</label>
+    <picklistValues>
+      <masterLabel>Family</masterLabel>
+      <translation>[Family]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Medical</masterLabel>
+      <translation>[Medical]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Other</masterLabel>
+      <translation>[Other]o'介引户]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Religious</masterLabel>
+      <translation>[Religious]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Start_Time__c</name>
+    <help>[For a partial-day excused absence, the time the student left school.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <label>[Start Time]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Unexcused__c</name>
+    <help>[Indicates an unexcused tardy or absence.]o'介引户הаí先ร简а]</help>
+    <label>[Unexcused]o'介]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Attendance Event Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Attendance Event Name]o'介引户ה]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Attendance Event Name]o'介引户ה]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Attendance Event]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Attendance Events]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

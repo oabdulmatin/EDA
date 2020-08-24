@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account_Processor__c</name>
+    <help>[ID of the default record type for Account. For example, if specifying Administrative (the recommended Account model), enter the ID of the Administrative record type for the Account object.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹]</help>
+    <label>[Account Processor]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Accounts_Addresses_Enabled__c</name>
+    <help>[The record types of Accounts that should have multi-addresses enabled.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Multi-Address Accounts]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Accounts_to_Delete__c</name>
+    <help>[The record types of Accounts to be automatically deleted if all their associated Contacts have been deleted.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Accounts to Delete]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Admin_Account_Naming_Format__c</name>
+    <help>[Stores the default format for Admin Account names.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Admin Account Naming Format]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Admin_Other_Name_Setting__c</name>
+    <help>[Stores other info about Admin Account naming format.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Admin Other Name Setting]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Administrative_Account_Record_Type__c</name>
+    <help>[The Account record type used for Administrative Accounts. This setting affects management of Address records and the naming format of Administrative Accounts.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계]</help>
+    <label>[Administrative Account Record Type]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Advancement_Namespace__c</name>
+    <help>[The namespace of the Gift Entry Manager managed package.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[GEM Namespace]o'介]</label>
+  </fields>
+  <fields>
+    <name>Affiliation_Record_Type_Enforced__c</name>
+    <help>[If enabled, an error results when users populate a primary field on Contact with an Account that has a record type mismatch to the record type defined in EDA Settings. The Affiliation record is not created and primary fields on Contact are not corrected]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنご]</help>
+    <label>[Affiliation Record Type Enforced]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Copy_End_Date__c</name>
+    <help>[Indicates whether to set the End Date of the Affiliation created with a Program Enrollment. If enabled, set the End Date to the Program Enrollment's End Date. If disabled, don't specify the Affiliation's End Date.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介น]</help>
+    <label>[Affil End Date Copy from Prog Enroll]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Copy_Start_Date__c</name>
+    <help>[Indicates whether to set the Start Date of the Affiliation created with a Program Enrollment. If enabled, set the Start Date to the Program Enrollment's Start Date. If disabled, don't specify the Affiliation's Start Date.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşр]</help>
+    <label>[Affil Start Date Copy from Prog Enroll]o'介引户הаí先ร简]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Del_Status__c</name>
+    <help>[If the related setting, Affil Delete When Delete Prog Enroll, is disabled, this setting specifies the value to set for the Affiliation's Status, when its related Program Enrollment is deleted.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소]</help>
+    <label>[Affil Status When Delete Prog Enroll]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Del__c</name>
+    <help>[Indicates whether to delete an Affiliation when its related Program Enrollment is deleted. If enabled, delete the Affiliation. If disabled, set the Affiliation's Status to the value specified in the related setting, Affil Status When Delete Prog Enroll.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنご]</help>
+    <label>[Affil Delete When Delete Prog Enroll]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Role_Map__c</name>
+    <help>[If the related setting, Affil Set Role When Create Prog Enroll, is enabled, this setting specifies the value to set for the Role on the Affiliation created with a Program Enrollment.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт]</help>
+    <label>[Affil Role When Create Prog Enroll]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Set_Role__c</name>
+    <help>[Indicates whether to specify a Role for the Affiliation created with a Program Enrollment. If enabled, set the Affiliation's Role to the value specified in the related setting, Affil Role When Create Prog Enroll. If disabled, don't specify a Role.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčن]</help>
+    <label>[Affil Set Role When Create Prog Enroll]o'介引户הаí先ร简]</label>
+  </fields>
+  <fields>
+    <name>Affl_ProgEnroll_Status_Map__c</name>
+    <help>[The value set for the Status of an Affiliation record automatically created with a Program Enrollment.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <label>[Affil Status When Create Prog Enroll]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Allow_AutoCreated_Duplicates__c</name>
+    <help>[Auto-created Relationships are deduplicated to prevent duplication of Relationship records between Contacts. Select Allow Auto-Created Duplicate Relations to disable this behavior and allow multiple Relationships of the same type between two Contacts.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtبčنご]</help>
+    <label>[Allow Auto-Created Duplicate Relations]o'介引户הаí先ร简]</label>
+  </fields>
+  <fields>
+    <name>Async_Error_Check_Last_Run__c</name>
+    <help>[The most recent execution date of the Async Job error logger.]o'介引户הаí先ร简аน取정úσι]</help>
+    <label>[Async Error Check Last Run]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Automatic_Household_Naming__c</name>
+    <help>[If enabled, the Household Name is automatically set based on the Household Name Format settings.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Automatic Household Naming]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Contacts_Addresses_Enabled__c</name>
+    <help>[Enables multi-address functionality for Contacts.]o'介引户הаí先ร简аน取]</help>
+    <label>[Address management support for Contacts.]o'介引户הаí先ร简а]</label>
+  </fields>
+  <fields>
+    <name>Default_Contact_Language_Fluency__c</name>
+    <help>[The Fluency value automatically set on newly created Contact Language records when users set the Primary Language lookup field on a Contact.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Default Contact Language Fluency]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Disable_Error_Handling__c</name>
+    <help>[If selected, the custom error handling framework is disabled.]o'介引户הаí先ร简аน取정úσι]</help>
+    <label>[Disable Error Handling]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Disable_Preferred_Email_Enforcement__c</name>
+    <help>[Select to disable the enforcement of the Preferred Email field for Contacts.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Disable Preferred Email Enforcement]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Disable_Preferred_Phone_Enforcement__c</name>
+    <help>[Select to disable the enforcement of the Preferred Phone field for Contacts.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Disable Preferred Phone Enforcement]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Enable_Course_Connections__c</name>
+    <help>[When enabled, allows users to choose the Contact type (Faculty or Student) when creating a Course Connection record. This feature requires default Contact record types to be set for active students and faculty.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介น]</help>
+    <label>[Enable Course Connections]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Enable_Debug__c</name>
+    <help>[Select to enable debug statements in managed package code.]o'介引户הаí先ร简аน取정úσ]</help>
+    <label>[Enable Debug]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Enable_New_Preferred_Phone_Sync__c</name>
+    <help>[Sync the Preferred Phone field to the Contact's standard Phone field and validates that the value in Preferred Phone exists and has a value.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Enable New Preferred Phone Sync]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Error_Notifications_On__c</name>
+    <help>[If selected, notifications are posted for package-generated errors.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <label>[Error Notifications]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Error_Notifications_To__c</name>
+    <help>[Stores the type of user to send error notifications to.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Error Notification Recipients]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Faculty_RecType__c</name>
+    <help>[The default Contact record type for Faculty when creating a Course Connection record.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Faculty Record Type]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Household_Account_Naming_Format__c</name>
+    <help>[Stores the Household Account Naming Format.]o'介引户הаí先ร简а]</help>
+    <label>[Household Account Naming Format]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Household_Addresses_RecType__c</name>
+    <help>[The Account record type used for Household Accounts. This setting affects management of Address records and the naming format of Household Accounts.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</help>
+    <label>[Household Addresses Acc Record Type]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Household_Other_Name_Setting__c</name>
+    <help>[Stores other information about the Household Account naming format.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <label>[Household Other Name Setting]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Preferred_Phone_Selection__c</name>
+    <help>[Select a desired Preferred Phone when the Data Cleanup batch job runs.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Preferred Phone Selection]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Account_Deletion__c</name>
+    <label>[Prevent Account Deletion]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Address_Deletion__c</name>
+    <label>[Prevent Address Deletion]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Affiliation_Deletion__c</name>
+    <label>[Prevent Affiliation Deletion]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Behavior_Involvement_Deletion__c</name>
+    <label>[Prevent Behavior Involvement Deletion]o'介引户הаí先ร简]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Case_Deletion__c</name>
+    <label>[Prevent Case Deletion]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Contact_Deletion__c</name>
+    <label>[Prevent Contact Deletion]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Course_Deletion__c</name>
+    <label>[Prevent Course Deletion]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Course_Connection_Deletion__c</name>
+    <label>[Prevent Course Connection Deletion]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Facility_Deletion__c</name>
+    <label>[Prevent Facility Deletion]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Course_Offering_Deletion__c</name>
+    <label>[Prevent Course Offering Deletion]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Plan_Requirement_Deletion__c</name>
+    <label>[Prevent Plan Requirement Deletion]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Program_Enrollment_Deletion__c</name>
+    <label>[Prevent Program Enrollment Deletion]o'介引户הаí先ร]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Program_Plan_Deletion__c</name>
+    <label>[Prevent Program Plan Deletion]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Term_Deletion__c</name>
+    <label>[Prevent Term Deletion]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Test_Deletion__c</name>
+    <label>[Prevent Test Deletion]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Prevent_Time_Block_Deletion__c</name>
+    <label>[Prevent Time Block Deletion]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Reciprocal_Method__c</name>
+    <help>[Determines the method used to generate the reciprocal relationship. Use List Setting to use custom settings by gender. Use Value Inversion to invert the type if appropriate ("Parent-Child" to "Child-Parent")]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介]</help>
+    <label>[Reciprocal Method]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Relationship_Name_Field_Id__c</name>
+    <help>[This field is currently not used.]o'介引户הаí先]</help>
+    <label>[Relationship Name Field Id]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Relationship_Name_Id_Field_Id__c</name>
+    <help>[This field is currently not used.]o'介引户הаí先]</help>
+    <label>[Relationship Name Id Field Id]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>Simple_Address_Change_Treated_as_Update__c</name>
+    <help>[When enabled, changes to single address fields on Contact or Account are treated as updates to the existing address (for example, no new Address object is created). White space and case changes are treated as updates.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นş]</help>
+    <label>[Simple Address Change Treated as Update]o'介引户הаí先ร简]</label>
+  </fields>
+  <fields>
+    <name>Store_Errors_On__c</name>
+    <help>[Enable this feature to store errors.]o'介引户הаí先ร]</help>
+    <label>[Store Errors]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Student_RecType__c</name>
+    <label>[Student Record Type]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Validate_Program_Plan_for_Nested_PR__c</name>
+    <help>[When selected, Plan Requirements can specify either a Program Plan or a parent Plan Requirement, but not both. If you specify both a Program Plan and a parent Plan Requirement, an error message prevents saving until only one is selected.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрωtب]</help>
+    <label>[Validate Program Plan for Nested PR]o'介引户הаí先ร]</label>
+  </fields>
+</CustomObjectTranslation>

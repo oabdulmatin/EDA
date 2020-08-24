@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Contact__c</name>
+    <help>[The person who speaks this language.]o'介引户הаí先ร]</help>
+    <relationshipLabel>[Contact Languages]o'介引户]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Fluency__c</name>
+    <help>[The fluency with which this person speaks this language.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Fluency]o']</label>
+    <picklistValues>
+      <masterLabel>Fluent</masterLabel>
+      <translation>[Fluent]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Intermediate</masterLabel>
+      <translation>[Intermediate]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Beginner</masterLabel>
+      <translation>[Beginner]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Language_Details__c</name>
+    <label>[Language Details]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Language__c</name>
+    <help>[A language this person speaks.]o'介引户הаí先]</help>
+    <relationshipLabel>[Contact Languages]o'介引户]</relationshipLabel>
+    <label>[Language]o'介]</label>
+  </fields>
+  <fields>
+    <name>Primary_Language__c</name>
+    <help>[Indicates this is the language of choice for this person.]o'介引户הаí先ร简аน取정úσ]</help>
+    <label>[Primary Language]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>HEDA Contact Language Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Contact Language Name]o'介引户ה]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Contact Language Name]o'介引户ה]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Contact Language]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Contact Languages]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

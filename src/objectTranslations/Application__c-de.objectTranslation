@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Applicant_Decision_Date__c</name>
+    <help>[The date when the student decides whether to enroll.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Applicant Decision Date]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Applicant__c</name>
+    <help>[The Contact applying to the institution or program.]o'介引户הаí先ร简аน取정]</help>
+    <relationshipLabel>[Applications (Applicant)]o'介引户הа]</relationshipLabel>
+    <label>[Applicant]o'介]</label>
+  </fields>
+  <fields>
+    <name>Application_Date__c</name>
+    <help>[The date and time when the application was submitted.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Application Date]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Application_Decision_Date__c</name>
+    <help>[The date when the institution decides whether to accept the applicant.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Application Decision Date]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Application_Status__c</name>
+    <help>[The status of the application process.]o'介引户הаí先ร简]</help>
+    <label>[Application Status]o'介引户]</label>
+    <picklistValues>
+      <masterLabel>Submitted</masterLabel>
+      <translation>[Submitted]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Incomplete</masterLabel>
+      <translation>[Incomplete]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Received</masterLabel>
+      <translation>[Received]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>In Review</masterLabel>
+      <translation>[In Review]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Waitlist</masterLabel>
+      <translation>[Waitlist]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Admit</masterLabel>
+      <translation>[Admit]o'介引户]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Admit with Conditions</masterLabel>
+      <translation>[Admit with Conditions]o'介引户ה]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Deny</masterLabel>
+      <translation>[Deny]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Deferred Offer</masterLabel>
+      <translation>[Deferred Offer]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Accepted Offer</masterLabel>
+      <translation>[Accepted Offer]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Declined Offer</masterLabel>
+      <translation>[Declined Offer]o'介引]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Application_Type__c</name>
+    <help>[The type of program or track the applicant is applying to.]o'介引户הаí先ร简аน取정úσ]</help>
+    <label>[Application Type]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Graduate</masterLabel>
+      <translation>[Graduate]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Transfer</masterLabel>
+      <translation>[Transfer]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Undergraduate</masterLabel>
+      <translation>[Undergraduate]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Applying_To__c</name>
+    <help>[The academic program or major the applicant is applying to.]o'介引户הаí先ร简аน取정úσ]</help>
+    <relationshipLabel>[Applications]o'介引]</relationshipLabel>
+    <label>[Applying To]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Initial_Creation_Date__c</name>
+    <help>[The date the application was initially created by the applicant.]o'介引户הаí先ร简аน取정úσιм]</help>
+    <label>[Initial Creation Date]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Preparer__c</name>
+    <help>[The Contact preparing the application. For example, a guardian or a person assisting someone with special needs.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <relationshipLabel>[Applications (Preparer)]o'介引户ה]</relationshipLabel>
+    <label>[Preparer]o'介]</label>
+  </fields>
+  <fields>
+    <name>Term__c</name>
+    <help>[The term when the applicant wants to enroll.]o'介引户הаí先ร简аน]</help>
+    <relationshipLabel>[Applications]o'介引]</relationshipLabel>
+    <label>[Term]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Application Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Application Name]o'介引]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Application Name]o'介引]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Application]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Applications]gr''介引]</value>
+  </caseValues>
+</CustomObjectTranslation>

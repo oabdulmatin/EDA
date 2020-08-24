@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Active__c</name>
+    <help>[Indicates if this reciprocal lookup is active.]o'介引户הаí先ร简аน]</help>
+    <label>[Active]o']</label>
+  </fields>
+  <fields>
+    <name>Female__c</name>
+    <help>[The value used for the Reciprocal Setting if the Contact's Gender or Salutation field indicates Female gender.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Female]o']</label>
+  </fields>
+  <fields>
+    <name>Male__c</name>
+    <help>[The value used for the Reciprocal Setting if the Contact's Gender or Salutation field indicates Male gender.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Male]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Neutral__c</name>
+    <help>[The value used if the Contact's Gender and Saluation fields don't indicate gender.]o'介引户הаí先ร简аน取정úσιмÜП介мの]</help>
+    <label>[Neutral]o']</label>
+  </fields>
+</CustomObjectTranslation>

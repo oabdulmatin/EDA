@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Contact__c</name>
+    <help>[The student who took the test.]o'介引户הаí先]</help>
+    <relationshipLabel>[Tests]o'介引户]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Date_Received__c</name>
+    <help>[The date the test score is added to the system, either by manual upload or directly from an official source.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Date Received]o'介]</label>
+  </fields>
+  <fields>
+    <name>Source__c</name>
+    <help>[Indicates whether the applicant or an official source reported this test.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Source]o']</label>
+    <picklistValues>
+      <masterLabel>Self Reported</masterLabel>
+      <translation>[Self Reported]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Official</masterLabel>
+      <translation>[Official]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Test_Date__c</name>
+    <help>[The date the applicant or official source indicates the test was started.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[Test Date]o'介]</label>
+  </fields>
+  <fields>
+    <name>Test_Type__c</name>
+    <help>[The formal name for the test taken.]o'介引户הаí先ร]</help>
+    <label>[Test Type]o'介]</label>
+    <picklistValues>
+      <masterLabel>SAT</masterLabel>
+      <translation>[SAT]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>ACT</masterLabel>
+      <translation>[ACT]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>GRE</masterLabel>
+      <translation>[GRE]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>GMAT</masterLabel>
+      <translation>[GMAT]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>TOEFL</masterLabel>
+      <translation>[TOEFL]o'介引户]</translation>
+    </picklistValues>
+  </fields>
+  <layouts>
+    <layout>EDA Test Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Test Name]o'介]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Test Name]o'介]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Test]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Tests]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Course_Offering__c</name>
+    <help>[The Course Offering this schedule is for.]o'介引户הаí先ร简а]</help>
+    <relationshipLabel>[Course Offering Schedules]o'介引户הа]</relationshipLabel>
+    <label>[Course Offering]o'介引]</label>
+  </fields>
+  <fields>
+    <name>End_Time__c</name>
+    <help>[The time of day the Course Offering ends. If you've entered a Time Block for this Course Offering, you can leave this field blank.]o'介引户הаí先ร简аน取정úσιмÜП介мのαş]</help>
+    <label>[End Time]o'介]</label>
+  </fields>
+  <fields>
+    <name>Facility__c</name>
+    <help>[The location of the scheduled Course Offering.]o'介引户הаí先ร简аน]</help>
+    <relationshipLabel>[Course Offering Schedules]o'介引户הа]</relationshipLabel>
+    <label>[Facility]o'介]</label>
+  </fields>
+  <fields>
+    <name>Friday__c</name>
+    <help>[Select to indicate this Course Offering is on Fridays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Friday]o']</label>
+  </fields>
+  <fields>
+    <name>Monday__c</name>
+    <help>[Select to indicate this Course Offering is on Mondays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Monday]o']</label>
+  </fields>
+  <fields>
+    <name>Saturday__c</name>
+    <help>[Select to indicate this Course Offering is on Saturdays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Saturday]o'介]</label>
+  </fields>
+  <fields>
+    <name>Start_Time__c</name>
+    <help>[The time of day the Course Offering starts. If you've entered a Time Block for this Course Offering, you can leave this field blank.]o'介引户הаí先ร简аน取정úσιмÜП介мのαş]</help>
+    <label>[Start Time]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Sunday__c</name>
+    <help>[Select to indicate this Course Offering is on Sundays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Sunday]o']</label>
+  </fields>
+  <fields>
+    <name>Thursday__c</name>
+    <help>[Select to indicate this Course Offering is on Thursdays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Thursday]o'介]</label>
+  </fields>
+  <fields>
+    <name>Time_Block__c</name>
+    <help>[The Time Block in which this Course Offering is being held.]o'介引户הаí先ร简аน取정úσ]</help>
+    <relationshipLabel>[Course Offering Schedules]o'介引户הа]</relationshipLabel>
+    <label>[Time Block]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Tuesday__c</name>
+    <help>[Select to indicate this Course Offering is on Tuesdays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Tuesday]o']</label>
+  </fields>
+  <fields>
+    <name>Wednesday__c</name>
+    <help>[Select to indicate this Course Offering is on Wednesdays. You can select multiple days.]o'介引户הаí先ร简аน取정úσιмÜП介мのαş]</help>
+    <label>[Wednesday]o'介]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Course Offering Schedule Layout</layout>
+    <sections>
+      <label>[Days of Week]o'介引]</label>
+      <section>Days of Week</section>
+    </sections>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Course Offering Schedule Name]o'介引户הаí]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Course Offering Schedule Name]o'介引户הаí]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Offering Schedule]gr''介引户הа]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Offering Schedules]gr''介引户הа]</value>
+  </caseValues>
+</CustomObjectTranslation>

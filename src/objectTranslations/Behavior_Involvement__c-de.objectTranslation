@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Case__c</name>
+    <help>[The Case that represents the event being reported.]o'介引户הаí先ร简аน取정]</help>
+    <relationshipLabel>[Behavior Involvements]o'介引户ה]</relationshipLabel>
+    <label>[Case]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Contact__c</name>
+    <help>[The student or faculty Contact who was directly involved in the event.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <relationshipLabel>[Behavior Involvements]o'介引户ה]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Description__c</name>
+    <label>[Description]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Role__c</name>
+    <help>[The role this person played in the event.]o'介引户הаí先ร简а]</help>
+    <label>[Role]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Perpetrator</masterLabel>
+      <translation>[Perpetrator]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Reporter</masterLabel>
+      <translation>[Reporter]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Victim</masterLabel>
+      <translation>[Victim]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Witness</masterLabel>
+      <translation>[Witness]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Other</masterLabel>
+      <translation>[Other]o'介引户]</translation>
+    </picklistValues>
+  </fields>
+  <layouts>
+    <layout>EDA Behavior Involvement Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Behavior Involvement Name]o'介引户הа]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Behavior Involvement Name]o'介引户הа]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Behavior Involvement]gr''介引户ה]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Behavior Involvements]gr''介引户ה]</value>
+  </caseValues>
+</CustomObjectTranslation>

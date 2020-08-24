@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Category__c</name>
+    <help>[The type of Case being tracked.]o'介引户הаí先]</help>
+    <label>[Category]o'介]</label>
+    <picklistValues>
+      <masterLabel>School Code of Conduct</masterLabel>
+      <translation>[School Code of Conduct]o'介引户ה]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>School Violation</masterLabel>
+      <translation>[School Violation]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>State Offense</masterLabel>
+      <translation>[State Offense]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Other</masterLabel>
+      <translation>[Other]o'介引户]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Location__c</name>
+    <help>[The location where the Case took place.]o'介引户הаí先ร简]</help>
+    <label>[Location]o'介]</label>
+    <picklistValues>
+      <masterLabel>Off Campus</masterLabel>
+      <translation>[Off Campus]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>On Campus</masterLabel>
+      <translation>[On Campus]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Other</masterLabel>
+      <translation>[Other]o'介引户]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Occurrence_Date__c</name>
+    <help>[The date and time when the behavior event that triggered the Case occurred.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Occurrence Date]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Incident Layout</layout>
+    <sections>
+      <label>[Fields]o']</label>
+      <section>Fields</section>
+    </sections>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+</CustomObjectTranslation>

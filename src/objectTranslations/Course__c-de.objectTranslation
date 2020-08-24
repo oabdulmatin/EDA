@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account__c</name>
+    <help>[The department (Account record) that offers this Course.]o'介引户הаí先ร简аน取정ú]</help>
+    <relationshipLabel>[Courses]o']</relationshipLabel>
+    <label>[Department]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Course_ID__c</name>
+    <help>[The Course alphanumeric ID., for example, English 101.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Course ID]o'介]</label>
+  </fields>
+  <fields>
+    <name>Credit_Hours__c</name>
+    <label>[Credit Hours]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Description__c</name>
+    <help>[This field has been replaced by the Extended Description field, which accomodates longer descriptions. Your admin can migrate text from the Description to the Extended Description field in EDA Settings | Courses.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介น]</help>
+    <label>[Description]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Extended_Description__c</name>
+    <help>[Use this field to describe the Course, up to a maxium of 131,000 characters. This field replaces the Description field.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Extended Description]o'介引户ה]</label>
+  </fields>
+  <layouts>
+    <layout>HEDA Course Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Course Name]o'介引]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Course Name]o'介引]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course]gr'']</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Courses]gr'']</value>
+  </caseValues>
+</CustomObjectTranslation>

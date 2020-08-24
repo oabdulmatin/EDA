@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account_Record_Type__c</name>
+    <help>[The label of the Account record type that's being mapped.]o'介引户הаí先ร简аน取정úσ]</help>
+    <label>[Account Record Type]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Auto_Program_Enrollment_Role__c</name>
+    <help>[The role to set on the Program Enrollment record that's automatically created if Auto Program Enrollment is selected.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Auto Enrollment Role]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Auto_Program_Enrollment_Status__c</name>
+    <help>[The status to set on the Program Enrollment record that's automatically created if Auto Program Enrollment is selected.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Auto Enrollment Status]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Auto_Program_Enrollment__c</name>
+    <help>[If selected, a Program Enrollment record is auto created when a user creates an Affiliation record with an Account of this record type.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</help>
+    <label>[Auto Enrollment]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Primary_Affl_Field__c</name>
+    <help>[The label of the Contact field that holds the value of the primary Account for this record type.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Primary Affl Field]o'介引户]</label>
+  </fields>
+</CustomObjectTranslation>

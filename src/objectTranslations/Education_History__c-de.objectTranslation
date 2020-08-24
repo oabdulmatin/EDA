@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account__c</name>
+    <relationshipLabel>[Education History]o'介引户]</relationshipLabel>
+    <label>[Educational Institution Account]o'介引户הаí先]</label>
+  </fields>
+  <fields>
+    <name>Class_Percentile__c</name>
+    <help>[The student's percentile ranking for their class. For example, a student that ranks in the top 10% has a 90% value.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Class Percentile]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Class_Rank_Scale__c</name>
+    <help>[Tracks how the Class Percentile was determined. For example, using exact decile, quintile, or quartile.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <label>[Class Rank Scale]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Exact</masterLabel>
+      <translation>[Exact]o'介引户]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Decile</masterLabel>
+      <translation>[Decile]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Quintile</masterLabel>
+      <translation>[Quintile]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Quartile</masterLabel>
+      <translation>[Quartile]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>None</masterLabel>
+      <translation>[None]o'介引]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Class_Rank_Type__c</name>
+    <help>[Tracks how the Class Rank was determined. For example, using a weighted or unweighted scale.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</help>
+    <label>[Class Rank Type]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Unweighted</masterLabel>
+      <translation>[Unweighted]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Weighted</masterLabel>
+      <translation>[Weighted]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Class_Rank__c</name>
+    <help>[The student's academic rank in relation to their graduating class. For example, a student that ranks 5th in the class of 200, has a value of 5.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแة]</help>
+    <label>[Class Rank]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Class_Size__c</name>
+    <help>[The number of students that were in the Contact's class.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Class Size]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Contact__c</name>
+    <help>[The Contact related to this historical data.]o'介引户הаí先ร简аน]</help>
+    <relationshipLabel>[Education History]o'介引户]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Degree_Earned__c</name>
+    <help>[If applicable, the level of the degree the Contact earned at this Educational Institution.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแ]</help>
+    <label>[Degree Earned]o'介]</label>
+    <picklistValues>
+      <masterLabel>GED</masterLabel>
+      <translation>[GED]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>High School Diploma</masterLabel>
+      <translation>[High School Diploma]o'介引户]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>AA</masterLabel>
+      <translation>[AA]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>AS</masterLabel>
+      <translation>[AS]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>BA</masterLabel>
+      <translation>[BA]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>BS</masterLabel>
+      <translation>[BS]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>MA</masterLabel>
+      <translation>[MA]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>MBA</masterLabel>
+      <translation>[MBA]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>MS</masterLabel>
+      <translation>[MS]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>JD</masterLabel>
+      <translation>[JD]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>MD</masterLabel>
+      <translation>[MD]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>PhD</masterLabel>
+      <translation>[PhD]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Other</masterLabel>
+      <translation>[Other]o'介引户]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Details__c</name>
+    <help>[Additional details about this student's educational history.]o'介引户הаí先ร简аน取정úσι]</help>
+    <label>[Details]o']</label>
+  </fields>
+  <fields>
+    <name>Educational_Institution_Name__c</name>
+    <label>[Educational Institution Name]o'介引户הаí]</label>
+  </fields>
+  <fields>
+    <name>End_Date__c</name>
+    <help>[The date the Contact left this Educational Institution.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[End Date]o'介]</label>
+  </fields>
+  <fields>
+    <name>GPA_Scale_Reporting__c</name>
+    <help>[The highest possible grade point average at this Educational Institution.]o'介引户הаí先ร简аน取정úσιмÜП]</help>
+    <label>[GPA Scale Reporting]o'介引户]</label>
+    <picklistValues>
+      <masterLabel>4</masterLabel>
+      <translation>[4]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>5</masterLabel>
+      <translation>[5]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>6</masterLabel>
+      <translation>[6]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>7</masterLabel>
+      <translation>[7]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>8</masterLabel>
+      <translation>[8]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>9</masterLabel>
+      <translation>[9]o]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>10</masterLabel>
+      <translation>[10]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>11</masterLabel>
+      <translation>[11]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>12</masterLabel>
+      <translation>[12]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>13</masterLabel>
+      <translation>[13]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>14</masterLabel>
+      <translation>[14]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>15</masterLabel>
+      <translation>[15]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>16</masterLabel>
+      <translation>[16]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>17</masterLabel>
+      <translation>[17]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>18</masterLabel>
+      <translation>[18]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>19</masterLabel>
+      <translation>[19]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>20</masterLabel>
+      <translation>[20]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>100</masterLabel>
+      <translation>[100]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>GPA_Scale_Type__c</name>
+    <help>[Tracks how the GPA was determined. For example, using a weighted or unweighted scale.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[GPA Scale Type]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Unweighted</masterLabel>
+      <translation>[Unweighted]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Weighted</masterLabel>
+      <translation>[Weighted]o'介]</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>GPA__c</name>
+    <help>[The Contact's final grade point average.]o'介引户הаí先ร简а]</help>
+    <label>[GPA]o'介]</label>
+  </fields>
+  <fields>
+    <name>Graduation_Date__c</name>
+    <help>[If applicable, the date the Contact graduated from this Educational Institution.]o'介引户הаí先ร简аน取정úσιмÜП介мの]</help>
+    <label>[Graduation Date]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Start_Date__c</name>
+    <help>[The date the Contact started at this Educational Institution.]o'介引户הаí先ร简аน取정úσι]</help>
+    <label>[Start Date]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Education History Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Education History Name]o'介引户ה]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Education History Name]o'介引户ה]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Education History]gr''介引户]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Education History]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

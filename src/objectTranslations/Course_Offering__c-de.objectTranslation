@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Capacity__c</name>
+    <help>[The maximum number of students for this Course Offering.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Capacity]o'介]</label>
+  </fields>
+  <fields>
+    <name>Course__c</name>
+    <relationshipLabel>[Course Offerings]o'介引]</relationshipLabel>
+    <label>[Course]o']</label>
+  </fields>
+  <fields>
+    <name>End_Date__c</name>
+    <help>[The date of the last session for this Course Offering.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[End Date]o'介]</label>
+  </fields>
+  <fields>
+    <name>Facility__c</name>
+    <help>[The Facility where this Course Offering will take place.]o'介引户הаí先ร简аน取정ú]</help>
+    <relationshipLabel>[Course Offerings]o'介引]</relationshipLabel>
+    <label>[Facility]o'介]</label>
+  </fields>
+  <fields>
+    <name>Faculty__c</name>
+    <help>[Lookup to the lead instructor for this Course Offering.]o'介引户הаí先ร简аน取정ú]</help>
+    <relationshipLabel>[Course Offerings]o'介引]</relationshipLabel>
+    <label>[Primary Faculty]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Section_ID__c</name>
+    <help>[The Section ID for this Course Offering. Section ID is typically used when a Course offers multiple sections during a single Term.]o'介引户הаí先ร简аน取정úσιмÜП介мのαş]</help>
+    <label>[Section ID]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Start_Date__c</name>
+    <help>[The date of the first session for this Course Offering.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Start Date]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Term__c</name>
+    <relationshipLabel>[Course Offerings]o'介引]</relationshipLabel>
+    <label>[Term]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Time_Block__c</name>
+    <relationshipLabel>[Course Offerings]o'介引]</relationshipLabel>
+    <label>[Time Block]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>HEDA Course Offering Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Course Offering ID]o'介引户]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Course Offering ID]o'介引户]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Offering]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Offerings]gr''介引]</value>
+  </caseValues>
+</CustomObjectTranslation>

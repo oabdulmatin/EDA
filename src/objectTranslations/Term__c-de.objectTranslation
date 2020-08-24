@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account__c</name>
+    <help>[The Academic Program, Department, or entire Educational Institution this Term applies to. Select the Account that represents your Educational Institution if Terms are consistent across all Programs and Departments in your school.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะяřт紹소иЗ介นşрω]</help>
+    <relationshipLabel>[Terms]o'介引户]</relationshipLabel>
+    <label>[Account]o']</label>
+  </fields>
+  <fields>
+    <name>End_Date__c</name>
+    <help>[The date this Term ends.]o'介引户הа]</help>
+    <label>[End Date]o'介]</label>
+  </fields>
+  <fields>
+    <name>Grading_Period_Sequence__c</name>
+    <help>[Indicates which Term this is. For example, enter "1" for the first quarter or semester, "2" for the second quarter or semester, etc.]o'介引户הаí先ร简аน取정úσιмÜП介мのαş]</help>
+    <label>[Grading Period Sequence]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Instructional_Days__c</name>
+    <help>[The total number of instructional days in this Term.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Instructional Days]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Parent_Term__c</name>
+    <help>[Optionally, select the Term that this Term is a part of. For example, if this Term is Fall Quarter 2020, the Parent Term might be 2020/2021 School Year.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй]</help>
+    <relationshipLabel>[Terms]o'介引户]</relationshipLabel>
+    <label>[Parent Term]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Start_Date__c</name>
+    <help>[The date this Term starts.]o'介引户הа]</help>
+    <label>[Start Date]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Type__c</name>
+    <help>[The type of Term, for example, Semester, Quarter, or School Year.]o'介引户הаí先ร简аน取정úσιм]</help>
+    <label>[Type]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Quarter</masterLabel>
+      <translation>[Quarter]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Semester</masterLabel>
+      <translation>[Semester]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>School Year</masterLabel>
+      <translation>[School Year]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Part of Term</masterLabel>
+      <translation>[Part of Term]o'介引]</translation>
+    </picklistValues>
+  </fields>
+  <layouts>
+    <layout>HEDA Term Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Term Name]o'介]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Term Name]o'介]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Term]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Terms]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

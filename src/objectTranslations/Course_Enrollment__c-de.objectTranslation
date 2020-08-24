@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account__c</name>
+    <help>[The Academic Program that the student or faculty member is associated with.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <relationshipLabel>[Course Connections]o'介引户]</relationshipLabel>
+    <label>[Contact's Academic Program]o'介引户הа]</label>
+  </fields>
+  <fields>
+    <name>Affiliation__c</name>
+    <help>[The Academic Program associated with this Course Connection. Represents a Contact-Account Affiliation.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <relationshipLabel>[Course Connection]o'介引户]</relationshipLabel>
+    <label>[Affiliation]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Contact__c</name>
+    <help>[The student or faculty member participating in this Course Offering.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <relationshipLabel>[Course Connections]o'介引户]</relationshipLabel>
+    <label>[Contact]o']</label>
+  </fields>
+  <fields>
+    <name>Course_Offering__c</name>
+    <help>[The Course Offering the student or faculty member is involved with.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <relationshipLabel>[Course Connection]o'介引户]</relationshipLabel>
+    <label>[Course Offering ID]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Credits_Attempted__c</name>
+    <help>[The number of credits the student is trying to earn through this Course Offering.]o'介引户הаí先ร简аน取정úσιмÜП介мの]</help>
+    <label>[Credits Attempted]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Credits_Earned__c</name>
+    <help>[The number of credits the student earned by completing this Course Offering.]o'介引户הаí先ร简аน取정úσιмÜП介]</help>
+    <label>[Credits Earned]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Grade__c</name>
+    <help>[The numeric grade the student earned in this Course Offering.]o'介引户הаí先ร简аน取정úσι]</help>
+    <label>[Grade]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Primary__c</name>
+    <help>[For faculty members, indicates they are the primary faculty (for example, lead instructor) for the Course Offering.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <label>[Primary]o']</label>
+  </fields>
+  <fields>
+    <name>Program_Enrollment__c</name>
+    <help>[For students, their primary Program Enrollment. In Higher Ed, this typically represents a student's academic major.]o'介引户הаí先ร简аน取정úσιмÜП介м]</help>
+    <relationshipLabel>[Course Connections]o'介引户]</relationshipLabel>
+    <label>[Program Enrollment ID]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>Status__c</name>
+    <help>[Indicates whether this is a current or former Course Connection.]o'介引户הаí先ร简аน取정úσιм]</help>
+    <label>[Status]o']</label>
+    <picklistValues>
+      <masterLabel>Current</masterLabel>
+      <translation>[Current]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Former</masterLabel>
+      <translation>[Former]o']</translation>
+    </picklistValues>
+  </fields>
+  <layouts>
+    <layout>HEDA Course Enrollment Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Course Connection ID]o'介引户ה]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Course Connection ID]o'介引户ה]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Connection]gr''介引户]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Course Connections]gr''介引户]</value>
+  </caseValues>
+</CustomObjectTranslation>

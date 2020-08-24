@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Percentile__c</name>
+    <help>[The percentile ranking for this score.]o'介引户הаí先ร简]</help>
+    <label>[Percentile]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Score__c</name>
+    <help>[The numeric value of the score received.]o'介引户הаí先ร简а]</help>
+    <label>[Score]o'介引户]</label>
+  </fields>
+  <fields>
+    <name>Subject_Area__c</name>
+    <help>[The subject matter or category for this test score.]o'介引户הаí先ร简аน取정]</help>
+    <label>[Subject Area]o'介引]</label>
+    <picklistValues>
+      <masterLabel>Language</masterLabel>
+      <translation>[Language]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Mathematics</masterLabel>
+      <translation>[Mathematics]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Reading</masterLabel>
+      <translation>[Reading]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Science</masterLabel>
+      <translation>[Science]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Writing</masterLabel>
+      <translation>[Writing]o']</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Overall</masterLabel>
+      <translation>[Overall]o']</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Test_Type__c</name>
+    <help>[Displays the Test Type name from the associated Test record. For example, SAT or GRE.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <label>[Test Type]o'介]</label>
+  </fields>
+  <fields>
+    <name>Test__c</name>
+    <help>[The Test for which this score is being recorded.]o'介引户הаí先ร简аน取]</help>
+    <relationshipLabel>[Test Scores]o'介引]</relationshipLabel>
+    <label>[Test]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Test Score Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Test Score Name]o'介引]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Test Score Name]o'介引]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Test Score]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Test Scores]gr''介引]</value>
+  </caseValues>
+</CustomObjectTranslation>

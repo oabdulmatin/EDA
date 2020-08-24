@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Account__c</name>
+    <help>[The organization responsible for this Facility, for example, a University Department.]o'介引户הаí先ร简аน取정úσιмÜП介мのα]</help>
+    <relationshipLabel>[Facilities]o'介引]</relationshipLabel>
+    <label>[Account]o']</label>
+  </fields>
+  <fields>
+    <name>Capacity__c</name>
+    <help>[The maximum number of occupants the Facility can hold.]o'介引户הаí先ร简аน取정ú]</help>
+    <label>[Capacity]o'介]</label>
+  </fields>
+  <fields>
+    <name>Description__c</name>
+    <help>[A description of this Facility.]o'介引户הаí先]</help>
+    <label>[Description]o'介引]</label>
+  </fields>
+  <fields>
+    <name>Facility_Type__c</name>
+    <help>[Select the type of Facility this is, for example, a computer lab, health center, lecture hall, etc.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةб]</help>
+    <label>[Facility Type]o'介]</label>
+    <picklistValues>
+      <masterLabel>Building</masterLabel>
+      <translation>[Building]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Cafeteria/Food Hall</masterLabel>
+      <translation>[Cafeteria/Food Hall]o'介引户]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Classroom</masterLabel>
+      <translation>[Classroom]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Computer Lab</masterLabel>
+      <translation>[Computer Lab]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Gymnasium</masterLabel>
+      <translation>[Gymnasium]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Health Center</masterLabel>
+      <translation>[Health Center]o'介]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Laboratory</masterLabel>
+      <translation>[Laboratory]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Lecture Hall</masterLabel>
+      <translation>[Lecture Hall]o'介引]</translation>
+    </picklistValues>
+    <picklistValues>
+      <masterLabel>Library</masterLabel>
+      <translation>[Library]o']</translation>
+    </picklistValues>
+  </fields>
+  <fields>
+    <name>Parent_Facility__c</name>
+    <help>[Optionally indicates the Facility that this one is a part of. For example, if this Facility is a classroom, the Parent Facility would be the building this classroom is in.]o'介引户הаí先ร简аน取정úσιмÜП介мのαşแةбй계ذะя]</help>
+    <relationshipLabel>[Facilities]o'介引]</relationshipLabel>
+    <label>[Parent Facility]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>HEDA Facility Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Facility Name]o'介]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Facility Name]o'介]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Facility]gr''介]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Facilities]gr''介引]</value>
+  </caseValues>
+</CustomObjectTranslation>

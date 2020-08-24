@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <name>Educational_Institution__c</name>
+    <help>[The Educational Institution associated with this Time Block. For example, a school within a district.]o'介引户הаí先ร简аน取정úσιмÜ]</help>
+    <relationshipLabel>[Time Blocks]o'介引]</relationshipLabel>
+    <label>[Educational Institution]o'介引户ה]</label>
+  </fields>
+  <fields>
+    <name>End_Time__c</name>
+    <help>[The time of day the Time Block ends.]o'介引户הаí先ร]</help>
+    <label>[End Time]o'介]</label>
+  </fields>
+  <fields>
+    <name>Start_Time__c</name>
+    <help>[The time of day the Time Block starts.]o'介引户הаí先ร简]</help>
+    <label>[Start Time]o'介引]</label>
+  </fields>
+  <layouts>
+    <layout>EDA Time Block Layout</layout>
+    <sections>
+      <label>[Custom Links]o'介引]</label>
+      <section>Custom Links</section>
+    </sections>
+  </layouts>
+  <nameFieldLabel>[Time Block Name]o'介引]</nameFieldLabel>
+  <standardFields>
+    <name>Name</name>
+    <label>[Time Block Name]o'介引]</label>
+  </standardFields>
+  <gender>Neuter</gender>
+  <caseValues>
+    <plural>false</plural>
+    <caseType>Nominative</caseType>
+    <value>[Time Block]gr''介引]</value>
+  </caseValues>
+  <caseValues>
+    <plural>true</plural>
+    <caseType>Nominative</caseType>
+    <value>[Time Blocks]gr''介引]</value>
+  </caseValues>
+</CustomObjectTranslation>
